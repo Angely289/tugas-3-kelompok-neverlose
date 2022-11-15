@@ -1,0 +1,212 @@
+GET http://localhost:8080/pet
+
+###
+GET http://localhost:8080/pet/6
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "kategori": "Anjing",
+    "nama": "Beagle",
+    "rating": 4.5,
+    "deskripsi": "Memiliki corak dengan kombinasi 3 warna. Ramah, sangat aktif, gesit, setia, dan pintar.",
+    "jumlah_terjual": 10,
+    "harga": "Rp800.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "kategori": "Anjing",
+    "nama": "Cavalier King Charles Spaniel",
+    "rating": 5.0,
+    "deskripsi": "Memiliki corak Blenheim (merah kastanye dan putih). Periang, lembut, dan tak kenal takut.",
+    "jumlah_terjual": 6,
+    "harga": "Rp134.000.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "kategori": "Anjing",
+    "nama": "Pomeranian",
+    "rating": 4.5,
+    "deskripsi": "Memiliki corak warna cream dan putih. Sangat lincah, cerdas, dan imut.",
+    "jumlah_terjual": 15,
+    "harga": "Rp900.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "kategori": "Anjing",
+    "nama": "Poodle",
+    "rating": 5.0,
+    "deskripsi": "Memiliki corak warna coklat. Pandai, ceria, selalu waspada, dan memiliki insting yang tajam.",
+    "jumlah_terjual": 18,
+    "harga": "Rp800.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "kategori": "Kucing",
+    "nama": "Anggora",
+    "rating": 5.0,
+    "deskripsi": "Suka bermain, sangat aktif, riuh, dan suka mencari perhatian pemiliknya.",
+    "jumlah_terjual": 18,
+    "harga": "Rp650.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "kategori": "Kucing",
+    "nama": "Singapura",
+    "rating": 4.0,
+    "deskripsi": "Periang, selalu ingin tahu, senang bermain, tidak akan merusak barang di sekitarnya, dan interaktif.",
+    "jumlah_terjual": 6,
+    "harga": "Rp18.500.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "kategori": "Kucing",
+    "nama": "Russian Blue",
+    "rating": 4.5,
+    "deskripsi": "Cerdas dan lucu, tetapi cenderung pemalu di sekitar orang asing.",
+    "jumlah_terjual": 12,
+    "harga": "Rp2.500.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "kategori": "Kucing",
+    "nama": "Balinese",
+    "rating": 5.0,
+    "deskripsi": "Sangat aktif, menyenangkan, dan suka bermain dengan pemiliknya.",
+    "jumlah_terjual": 15,
+    "harga": "Rp4.000.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "kategori": "Burung",
+    "nama": "Nuri",
+    "rating": 4.0,
+    "deskripsi": "Memiliki bulu berwarna merah dan suara yang merdu, serta mampu menirukan suara manusia.",
+    "jumlah_terjual": 18,
+    "harga": "Rp800.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "kategori": "Burung",
+    "nama": "Kakatua",
+    "rating": 4.5,
+    "deskripsi": "Penuh kasih sayang, lucu, dan jail.",
+    "jumlah_terjual": 14,
+    "harga": "Rp3.800.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "kategori": "Burung",
+    "nama": "Burung Hantu",
+    "rating": 5.0,
+    "deskripsi": "Pendengar yang baik, memiliki penglihatan yang tajam, pendiam, sederhana, dan bijak.",
+    "jumlah_terjual": 20,
+    "harga": "Rp500.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "kategori": "Burung",
+    "nama": "Beo",
+    "rating": 4.5,
+    "deskripsi": "Ramah, lucu, suka berbicara, dan suka bernyanyi mengikuti suara yang didengar.",
+    "jumlah_terjual": 16,
+    "harga": "Rp1.000.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "kategori": "Hewan Mungil",
+    "nama": "Kelinci Holland Lop",
+    "rating": 5.0,
+    "deskripsi": "Sangat enerjik, aktif, dan bersahabat, namun sulit digendong dan dipegang.",
+    "jumlah_terjual": 20,
+    "harga": "Rp300.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "kategori": "Hewan Mungil",
+    "nama": "Landak Mini Salt and Pepper",
+    "rating": 3.0,
+    "deskripsi": "Jinak, pemalu, dan penakut. Durinya tidak berbahaya dan aman.",
+    "jumlah_terjual": 5,
+    "harga": "Rp220.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "kategori": "Hewan Mungil",
+    "nama": "American Guinea Pig",
+    "rating": 4.5,
+    "deskripsi": "Ramah dan senang bermain dengan anak-anak.",
+    "jumlah_terjual": 17,
+    "harga": "Rp330.000,00"
+}
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+    "kategori": "Hewan Mungil",
+    "nama": "Tupai Merah",
+    "rating": 4.0,
+    "deskripsi": "Berani, agresif, suka beraktifitas, dan pandai.",
+    "jumlah_terjual": 12,
+    "harga": "Rp175.000,00"
+}
