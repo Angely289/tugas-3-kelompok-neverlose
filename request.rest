@@ -210,3 +210,217 @@ Content-Type: application/json
     "jumlah_terjual": 12,
     "harga": "Rp175.000,00"
 }
+
+###
+GET http://localhost:8080/product
+
+###
+GET http://localhost:8080/product/6
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "kategori": "Anjing",
+    "nama": "A-Frame Rumah Anjing",
+    "rating": 4.5,
+    "deskripsi": "Rumah anjing sederhana untuk hewan peliharaan anda dengan berbahan dasar kayu.",
+    "jumlah_terjual": 12,
+    "harga": "Rp543.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "kategori": "Anjing",
+    "nama": "Pedigree",
+    "rating": 5.0,
+    "deskripsi": "Mengandung nutrisi yang baik untuk membangun sistem kekebalan tubuh.",
+    "jumlah_terjual": 24,
+    "harga": "Rp43.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "kategori": "Anjing",
+    "nama": "Good Dog",
+    "rating": 4.5,
+    "deskripsi": "Makanan anjing super premium yang mengandung asam amino lemak, vitamin, dan mineral.",
+    "jumlah_terjual": 17,
+    "harga": "Rp67.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "kategori": "Anjing",
+    "nama": "Happy Dog",
+    "rating": 5.0,
+    "deskripsi": "Makanan kering dengan daging domba bergizi, nasi yang mudah dicerna, dan lemak yang rendah.",
+    "jumlah_terjual": 20,
+    "harga": "Rp70.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "kategori": "Kucing",
+    "nama": "Kandang Kucing Mini Portabel",
+    "rating": 5.0,
+    "deskripsi": "Kandang kucing mini portabel yang praktis dibawa ke mana saja yang terbuat dari plastik.",
+    "jumlah_terjual": 21,
+    "harga": "Rp85.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "kategori": "Kucing",
+    "nama": "Whiskas Adult Cat Food Tuna",
+    "rating": 5.0,
+    "deskripsi": "Mengandung serat untuk pencernaan, kalsium, omega 6, vitamin, taurine, dan antioksida.",
+    "jumlah_terjual": 25,
+    "harga": "Rp70.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "kategori": "Kucing",
+    "nama": "Friskies Adult Seafood Sensations",
+    "rating": 4.5,
+    "deskripsi": "Makanan kucing berkualitas yang mengandung nutrisi lengkap dan seimbang dari Purina.",
+    "jumlah_terjual": 18,
+    "harga": "Rp56.500,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "kategori": "Kucing",
+    "nama": "Happy Cat Minkas Perfect Mix",
+    "rating": 5.0,
+    "deskripsi": "Mengandung protein unggas, daging domba, dan ikan, yang kaya akan omega 3 dan omega 6.",
+    "jumlah_terjual": 15,
+    "harga": "Rp110.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "kategori": "Burung",
+    "nama": "Sangkar Burung Putih",
+    "rating": 5.0,
+    "deskripsi": "Sangkar burung elegan berwarna putih. Berbahan besi dengan diameter 22 cm dan tinggi 25 cm.",
+    "jumlah_terjual": 12,
+    "harga": "Rp125.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "kategori": "Burung",
+    "nama": "Vitakraft",
+    "rating": 5.0,
+    "deskripsi": "Dapat mencegah gejala kekurangan gizi dan membantu mengoptimalkan perawatan.",
+    "jumlah_terjual": 22,
+    "harga": "Rp80.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "kategori": "Burung",
+    "nama": "Pakan Pleci Nutri Booster",
+    "rating": 4.0,
+    "deskripsi": "Mengandung vitamin yang tinggi, nutrisi, protein, dan karbohidrat.",
+    "jumlah_terjual": 15,
+    "harga": "Rp35.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "kategori": "Burung",
+    "nama": "Premia Spring",
+    "rating": 4.5,
+    "deskripsi": "Mengandung nutrisi makro, vitamin, dan mineral yang lengkap untuk burung peliharaan anda.",
+    "jumlah_terjual": 12,
+    "harga": "Rp80.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "kategori": "Hewan Mungil",
+    "nama": "Rumah Hamster Pink",
+    "rating": 5.0,
+    "deskripsi": "Rumah tempat bermain dan beristirahat untuk hamster kesayangan anda.",
+    "jumlah_terjual": 18,
+    "harga": "Rp120.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "kategori": "Hewan Mungil",
+    "nama": "SmartHeart Rabbit Food",
+    "rating": 5.0,
+    "deskripsi": "Makanan lengkap untuk kelinci yang diperkaya dengan sayuran dan sereal.",
+    "jumlah_terjual": 20,
+    "harga": "Rp40.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "kategori": "Hewan Mungil",
+    "nama": "Hedgehog Food",
+    "rating": 4.5,
+    "deskripsi": "Makanan landak yang mengandung omega 3, 6, 9, protein, vitamin, dan kalium.",
+    "jumlah_terjual": 12,
+    "harga": "Rp27.000,00"
+}
+
+###
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+    "kategori": "Hewan Mungil",
+    "nama": "Vitakraft Guinea Pig",
+    "rating": 4.5,
+    "deskripsi": "Mengandung vitamin yang diperkaya oleh extra dosis vitamin C yang penting untuk kesehatan.",
+    "jumlah_terjual": 15,
+    "harga": "Rp40.000,00"
+}
